@@ -1,7 +1,7 @@
 # File with translation for AM
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025
 # zenobit <zenobit@disroot.org>, 2025.
-# Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
+# Prefill add-on <noreply-addon-prefill@weblate.org>, 2025, 2026.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # Apertium APy <noreply-mt-apertium-apy@weblate.org>, 2025.
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2026-03-28\n"
-"PO-Revision-Date: 2026-02-14 18:51+0100\n"
-"Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\n"
+"PO-Revision-Date: 2026-03-29 09:48+0000\n"
+"Last-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\n"
+"Language-Team: Spanish <https://weblate.osowoso.org/projects/am/am/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: APP-MANAGER:154
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -41,8 +41,9 @@ msgstr ""
 "nuevo.\\n\\n"
 
 #: APP-MANAGER:209
+#, fuzzy
 msgid "file: command not found\\n\\n"
-msgstr ""
+msgstr "file: command not found\\n\\n"
 
 #: APP-MANAGER:217
 msgid "Install 'less' if you want to scroll this list"
@@ -61,6 +62,7 @@ msgid " Please install gsed"
 msgstr " Por favor, instale gsed"
 
 #: APP-MANAGER:250
+#, fuzzy
 msgid ""
 "Before proceeding with any task, where do you want to install apps?\n"
 "\n"
@@ -74,6 +76,17 @@ msgid ""
 "if you wish to later change the location, first remove all the programs and "
 "then edit the \\\"$APPMANCONFIG/appman-config\\\" file."
 msgstr ""
+"Before proceeding with any task, where do you want to install apps?\n"
+"\n"
+"SYNTAX: /FULLPATH/TO/DIRNAME\n"
+"EXAMPLE: $HOME/My-apps\n"
+"\n"
+"NOTE: Any spaces in the path will be replaced for dashes\n"
+"NOTE: If no input is given then \\\"~/Applications\\\" will be used as "
+"default\n"
+"\n"
+"if you wish to later change the location, first remove all the programs and "
+"then edit the \\\"$APPMANCONFIG/appman-config\\\" file."
 
 #: APP-MANAGER:263
 msgid ">>> Configure AppMan"
@@ -273,54 +286,69 @@ msgid " Source: $AMREPO"
 msgstr " Fuente: $AMREPO"
 
 #: APP-MANAGER:659
+#, fuzzy
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: APP-MANAGER:660
+#, fuzzy
 msgid "Source"
-msgstr ""
+msgstr "Source"
 
 #: APP-MANAGER:661
+#, fuzzy
 msgid "Related flag"
-msgstr ""
+msgstr "Related flag"
 
 #: APP-MANAGER:662
+#, fuzzy
 msgid "Related extension"
-msgstr ""
+msgstr "Related extension"
 
 #: APP-MANAGER:663
+#, fuzzy
 msgid "PROGRAM"
-msgstr ""
+msgstr "PROGRAM"
 
 #: APP-MANAGER:664
+#, fuzzy
 msgid "To get more info about a program"
-msgstr ""
+msgstr "To get more info about a program"
 
 #: APP-MANAGER:665
+#, fuzzy
 msgid "To install a program near others from other databases"
-msgstr ""
+msgstr "To install a program near others from other databases"
 
 #: APP-MANAGER:666
+#, fuzzy
 msgid "To install a program only from this third-party database"
-msgstr ""
+msgstr "To install a program only from this third-party database"
 
 #: APP-MANAGER:667
+#, fuzzy
 msgid "To list all programs available in this third-party database"
-msgstr ""
+msgstr "To list all programs available in this third-party database"
 
 #: APP-MANAGER:668
+#, fuzzy
 msgid "To search for keywords in this third-party database"
-msgstr ""
+msgstr "To search for keywords in this third-party database"
 
 #: APP-MANAGER:745
+#, fuzzy
 msgid ""
 "Zsh completion requires editing the main configuration file, but it may "
 "cause problems.\\nSee https://github.com/ivan-hc/AM/issues/1843\\n"
 msgstr ""
+"Zsh completion requires editing the main configuration file, but it may "
+"cause problems.\\n"
+"See https://github.com/ivan-hc/AM/issues/1843\\n"
 
 #: APP-MANAGER:746
+#, fuzzy
 msgid "Want to proceed anyway? (y,N)"
-msgstr ""
+msgstr "Want to proceed anyway? (y,N)"
 
 #: APP-MANAGER:759
 msgid "Shell completion has been enabled!"
@@ -381,22 +409,32 @@ msgstr ""
 " Para obtener instrucciones sobre cómo crear tokens de GitHub, consulte:"
 
 #: APP-MANAGER:996
+#, fuzzy
 msgid ""
 "$DIVIDING_LINE\\n \\\"AM\\\" is running as \\\"AppMan\\\", use ${Green}am --"
 "system\\033[0m to switch it back to \\\"AM\\\"\\n$DIVIDING_LINE\\n"
 msgstr ""
+"$DIVIDING_LINE\\n \\\"AM\\\" is running as \\\"AppMan\\\", use ${Green}am --"
+"system\\033[0m to switch it back to \\\"AM\\\"\\n$DIVIDING_LINE\\n"
 
 #: APP-MANAGER:997
+#, fuzzy
 msgid "$DIVIDING_LINE\\n \\\"AppMan Mode\\\" disabled! \\n$DIVIDING_LINE\\n"
-msgstr ""
+msgstr "$DIVIDING_LINE\\n \\\"AppMan Mode\\\" disabled! \\n$DIVIDING_LINE\\n"
 
 #: APP-MANAGER:998
+#, fuzzy
 msgid ""
 "$DIVIDING_LINE\\nNOTE: You can also choose to simply use \\\"--user\\\" as a "
 "flag to install apps locally (options \\\"-i\\\", \\\"-ia\\\" and \\\"-e\\"
 "\") instead of going fully into \\\"AppMan Mode\\\". \\\"AM\\\" can  handle "
 "local applications as well.\\n$DIVIDING_LINE\\n"
 msgstr ""
+"$DIVIDING_LINE\\n"
+"NOTE: You can also choose to simply use \\\"--user\\\" as a flag to install "
+"apps locally (options \\\"-i\\\", \\\"-ia\\\" and \\\"-e\\\") instead of "
+"going fully into \\\"AppMan Mode\\\". \\\"AM\\\" can  handle local "
+"applications as well.\\n$DIVIDING_LINE\\n"
 
 #: APP-MANAGER:1002
 msgid " This function only works for AM"
@@ -457,8 +495,9 @@ msgid " Cleaning temporary files and folders..."
 msgstr " Limpiando archivos y carpetas temporales..."
 
 #: APP-MANAGER:1203
+#, fuzzy
 msgid " Do you want to install the set of programs listed above (y,N)?"
-msgstr ""
+msgstr " Do you want to install the set of programs listed above (y,N)?"
 
 #: APP-MANAGER:1223
 msgid "✔ $argpath has been hidden"
@@ -478,14 +517,18 @@ msgid "✔ $APPMAN_APPSPATH/$arg can be managed again"
 msgstr "✔ $APPMAN_APPSPATH/$arg puede ser gestionado de nuevo"
 
 #: APP-MANAGER:1245
+#, fuzzy
 msgid ""
 "The local path currently in use for programs is as follows:\\n\\n%b\\n\\n"
 msgstr ""
+"The local path currently in use for programs is as follows:\\n\\n%b\\n\\n"
 
 #: APP-MANAGER:1246
+#, fuzzy
 msgid ""
 " Do you want to remove and re-install everything to a new location (y,N)?"
 msgstr ""
+" Do you want to remove and re-install everything to a new location (y,N)?"
 
 #: APP-MANAGER:1274
 msgid ""
@@ -581,28 +624,34 @@ msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 msgstr "\\n Ver https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 
 #: APP-MANAGER:1423
+#, fuzzy
 msgid "Checksum auto-verified."
-msgstr ""
+msgstr "Checksum auto-verified."
 
 #: APP-MANAGER:1451
+#, fuzzy
 msgid "Checksum cannot be verified, missing download URL."
-msgstr ""
+msgstr "Checksum cannot be verified, missing download URL."
 
 #: APP-MANAGER:1467
+#, fuzzy
 msgid "Checksum cannot be verified, mismatch in binary name."
-msgstr ""
+msgstr "Checksum cannot be verified, mismatch in binary name."
 
 #: APP-MANAGER:1474
+#, fuzzy
 msgid "Checksum does not match, please manually verify file integrity."
-msgstr ""
+msgstr "Checksum does not match, please manually verify file integrity."
 
 #: APP-MANAGER:1478
+#, fuzzy
 msgid "Checksum verified."
-msgstr ""
+msgstr "Checksum verified."
 
 #: APP-MANAGER:1483
+#, fuzzy
 msgid "Checksum calculation tools do not exist, please install coreutils."
-msgstr ""
+msgstr "Checksum calculation tools do not exist, please install coreutils."
 
 #: APP-MANAGER:1493
 msgid ""
@@ -710,65 +759,86 @@ msgid "This feature is disabled by your organization"
 msgstr "Esta característica está deshabilitada por su organización"
 
 #: APP-MANAGER:1868
+#, fuzzy
 msgid "NAME"
-msgstr ""
+msgstr "NAME"
 
 #: APP-MANAGER:1869
+#, fuzzy
 msgid "VERSION"
-msgstr ""
+msgstr "VERSION"
 
 #: APP-MANAGER:1870
+#, fuzzy
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #: APP-MANAGER:1871
+#, fuzzy
 msgid ""
 "DESCRIPTION: A command line utility to install and manage AppImages and "
 "other portable programs for GNU/Linux thanks to its AUR-inspired database."
 msgstr ""
+"DESCRIPTION: A command line utility to install and manage AppImages and "
+"other portable programs for GNU/Linux thanks to its AUR-inspired database."
 
 #: APP-MANAGER:1872
+#, fuzzy
 msgid "OPTION"
-msgstr ""
+msgstr "OPTION"
 
 #: APP-MANAGER:1873
+#, fuzzy
 msgid "OPTIONS"
-msgstr ""
+msgstr "OPTIONS"
 
 #: APP-MANAGER:1874
+#, fuzzy
 msgid "THIRD-PARTY FLAGS"
-msgstr ""
+msgstr "THIRD-PARTY FLAGS"
 
 #: APP-MANAGER:1875
+#, fuzzy
 msgid "Third-party databases"
-msgstr ""
+msgstr "Third-party databases"
 
 #: APP-MANAGER:1876
+#, fuzzy
 msgid "SITES"
-msgstr ""
+msgstr "SITES"
 
 #: APP-MANAGER:1879
+#, fuzzy
 msgid "Description: Shows more info about one or more apps."
-msgstr ""
+msgstr "Description: Shows more info about one or more apps."
 
 #: APP-MANAGER:1880
+#, fuzzy
 msgid ""
 "Description: Accede to github APIs using your personal access tokens. The "
 "file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\\"del\\\" "
 "to remove it."
 msgstr ""
+"Description: Accede to github APIs using your personal access tokens. The "
+"file named \\\"ghapikey.txt\\\" will be saved in $AMDATADIR. Use \\\"del\\\" "
+"to remove it."
 
 #: APP-MANAGER:1881
+#, fuzzy
 msgid ""
 "Description: Create a snapshot of the current version of an installed "
 "program."
 msgstr ""
+"Description: Create a snapshot of the current version of an installed "
+"program."
 
 #: APP-MANAGER:1882
+#, fuzzy
 msgid "Description: Removes all the unnecessary files and folders."
-msgstr ""
+msgstr "Description: Removes all the unnecessary files and folders."
 
 #: APP-MANAGER:1883
+#, fuzzy
 msgid ""
 "Description: Clone the list of installed apps to an \\\"am-clone.source\\\" "
 "file, or search for an existing one on the desktop (priority), in $HOME, or "
@@ -781,17 +851,31 @@ msgid ""
 "\t\t\tYou can also set the path to a custom file by exporting the \\"
 "$CLONE_FILE variable."
 msgstr ""
+"Description: Clone the list of installed apps to an \\\"am-clone.source\\\" "
+"file, or search for an existing one on the desktop (priority), in $HOME, or "
+"across the entire system and removable devices. Add \\\"-i\\\" or \\"
+"\"install\\\" if you want to install or add the listed apps to a new "
+"configuration, to share it with anyone on other PCs and configurations. Add "
+"the \\\"--system\\\" or \\\"--user\\\" flag if you want all listed apps to "
+"be installed system-wide or locally respectively.\n"
+"\n"
+"\t\t\tYou can also set the path to a custom file by exporting the \\"
+"$CLONE_FILE variable."
 
 #: APP-MANAGER:1886
+#, fuzzy
 msgid ""
 "Description: Set a dedicated \\$XDG_CONFIG_HOME for one or more AppImages."
 msgstr ""
+"Description: Set a dedicated \\$XDG_CONFIG_HOME for one or more AppImages."
 
 #: APP-MANAGER:1887
+#, fuzzy
 msgid "Description: Download an older or specific app version."
-msgstr ""
+msgstr "Description: Download an older or specific app version."
 
 #: APP-MANAGER:1888
+#, fuzzy
 msgid ""
 "Description: Download one or more installation scripts to your desktop or "
 "convert them to local installers for \\\"AppMan\\\". To test the scripts, "
@@ -799,8 +883,14 @@ msgid ""
 "of the script and run the \\\"$AMCLI -i ./script\\\" command, even using "
 "dedicated flags, if necessary (see \\\"-i\\\")."
 msgstr ""
+"Description: Download one or more installation scripts to your desktop or "
+"convert them to local installers for \\\"AppMan\\\". To test the scripts, "
+"use the \\\"$AMCLI -i '/path/to/script'\\\" command or enter the directory "
+"of the script and run the \\\"$AMCLI -i ./script\\\" command, even using "
+"dedicated flags, if necessary (see \\\"-i\\\")."
 
 #: APP-MANAGER:1889
+#, fuzzy
 msgid ""
 "Description: Install AppImages from github.com, outside the database. This "
 "allows you to install, update and manage them all like the others. Where \\"
@@ -808,8 +898,14 @@ msgid ""
 "name to the program so that it can be used from the command line. "
 "Optionally, add an \\\"univoque\\\" keyword if multiple AppImages are listed."
 msgstr ""
+"Description: Install AppImages from github.com, outside the database. This "
+"allows you to install, update and manage them all like the others. Where \\"
+"\"user/project\\\" can be the whole URL to the github repository, give a "
+"name to the program so that it can be used from the command line. "
+"Optionally, add an \\\"univoque\\\" keyword if multiple AppImages are listed."
 
 #: APP-MANAGER:1890
+#, fuzzy
 msgid ""
 "Description: Shows the list of all installed programs, with sizes. By "
 "default apps are sorted by size, use \\\"--byname\\\" to sort by name. With "
@@ -817,29 +913,44 @@ msgid ""
 "\\\"-fi\\\" only shows installed apps, not the AppImages integrated with the "
 "\\\"--launcher\\\" option."
 msgstr ""
+"Description: Shows the list of all installed programs, with sizes. By "
+"default apps are sorted by size, use \\\"--byname\\\" to sort by name. With "
+"the option \\\"--less\\\" it shows only the number of installed apps. Option "
+"\\\"-fi\\\" only shows installed apps, not the AppImages integrated with the "
+"\\\"--launcher\\\" option."
 
 #: APP-MANAGER:1891
+#, fuzzy
 msgid "Description: Prints this message."
-msgstr ""
+msgstr "Description: Prints this message."
 
 #: APP-MANAGER:1892
+#, fuzzy
 msgid ""
 "Description: Prevents an installed application from being shown or managed "
 "by \\\"$AMCLI\\\"."
 msgstr ""
+"Description: Prevents an installed application from being shown or managed "
+"by \\\"$AMCLI\\\"."
 
 #: APP-MANAGER:1893
+#, fuzzy
 msgid ""
 "Description: Set a dedicated \\$HOME directory for one or more AppImages."
 msgstr ""
+"Description: Set a dedicated \\$HOME directory for one or more AppImages."
 
 #: APP-MANAGER:1894
+#, fuzzy
 msgid ""
 "Description: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories for "
 "one or more AppImages."
 msgstr ""
+"Description: Set dedicated \\$HOME and \\$XDG_CONFIG_HOME directories for "
+"one or more AppImages."
 
 #: APP-MANAGER:1895
+#, fuzzy
 msgid ""
 "Description: Allow installed apps to use system icon themes. You can specify "
 "the name of the apps to change or use the \\\"--all\\\" flag to change all "
@@ -848,8 +959,15 @@ msgid ""
 "scalable/apps directory. The \\\"--icons\\\" option can be used as \\\"flag\\"
 "\" in the \\\"-i\\\" and \\\"-ia\\\" options."
 msgstr ""
+"Description: Allow installed apps to use system icon themes. You can specify "
+"the name of the apps to change or use the \\\"--all\\\" flag to change all "
+"of them at once. This will remove the icon path from the .desktop file and "
+"add the symbolic link of all available icons in the $DATADIR/icons/hicolor/"
+"scalable/apps directory. The \\\"--icons\\\" option can be used as \\\"flag\\"
+"\" in the \\\"-i\\\" and \\\"-ia\\\" options."
 
 #: APP-MANAGER:1896
+#, fuzzy
 msgid ""
 "Description: Install one or more programs or libraries from the list. With "
 "the \\\"--debug\\\" option you can see log messages to debug the script. For "
@@ -859,15 +977,27 @@ msgid ""
 "also be extended with additional flags (see third-party flags, at the bottom "
 "of this message)."
 msgstr ""
+"Description: Install one or more programs or libraries from the list. With "
+"the \\\"--debug\\\" option you can see log messages to debug the script. For "
+"more details on \\\"--force-latest\\\", see the dedicated option, below. Use "
+"the \\\"--icons\\\" flag to allow the program to use icon themes. The \\\"--"
+"sandbox\\\" flag allows you to set sandboxes for AppImage packages. It can "
+"also be extended with additional flags (see third-party flags, at the bottom "
+"of this message)."
 
 #: APP-MANAGER:1897
+#, fuzzy
 msgid ""
 "Description: Same as \\\"install\\\" (see above) but for AppImages only. "
 "Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to \\\"-"
 "ia --sandbox\\\", to set sandboxes for AppImage packages."
 msgstr ""
+"Description: Same as \\\"install\\\" (see above) but for AppImages only. "
+"Option \\\"-ias\\\" (aka Install AppImage & Sandbox) is equivalent to \\\"-"
+"ia --sandbox\\\", to set sandboxes for AppImage packages."
 
 #: APP-MANAGER:1898
+#, fuzzy
 msgid ""
 "Description: Shows the list of all the apps available. Without flags only "
 "shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" to "
@@ -876,14 +1006,24 @@ msgid ""
 "all supported third-party databases. It can also be extended with additional "
 "flags (see third-party flags, at the bottom of this message)."
 msgstr ""
+"Description: Shows the list of all the apps available. Without flags only "
+"shows the apps in the \\\"AM\\\" database, add the \\\"--appimages\\\" to "
+"show only the AppImages or \\\"--portable\\\" to show other formats from the "
+"\\\"AM\\\" database. The \\\"--all\\\" flag allows you to consult the set of "
+"all supported third-party databases. It can also be extended with additional "
+"flags (see third-party flags, at the bottom of this message)."
 
 #: APP-MANAGER:1899
+#, fuzzy
 msgid ""
 "Description: Prevent an application being updated, if it has an\\\"AM-"
 "updater\\\" script."
 msgstr ""
+"Description: Prevent an application being updated, if it has an\\\"AM-"
+"updater\\\" script."
 
 #: APP-MANAGER:1900
+#, fuzzy
 msgid ""
 "Description: Set a new default repo, use \\\"add\\\" to append the path to a "
 "local directory or an online URL, then use \\\"select\\\" to use it by "
@@ -892,19 +1032,31 @@ msgid ""
 "\" to remove all 3rd party repos. Use \\\"info\\\" to see the source from "
 "where installation scripts and lists are taken."
 msgstr ""
+"Description: Set a new default repo, use \\\"add\\\" to append the path to a "
+"local directory or an online URL, then use \\\"select\\\" to use it by "
+"default, a message will warn you about the usage of this repo instead of the "
+"default one. Use \\\"on\\\"/\\\"off\\\" to enable/disable it. Use \\\"purge\\"
+"\" to remove all 3rd party repos. Use \\\"info\\\" to see the source from "
+"where installation scripts and lists are taken."
 
 #: APP-MANAGER:1901
+#, fuzzy
 msgid ""
 "Description: Convert old AppImages and get rid of \\\"libfuse2\\\" "
 "dependence."
 msgstr ""
+"Description: Convert old AppImages and get rid of \\\"libfuse2\\\" "
+"dependence."
 
 #: APP-MANAGER:1902
+#, fuzzy
 msgid ""
 "Description: Overwrite apps with snapshots saved previously (see \\\"-b\\\")."
 msgstr ""
+"Description: Overwrite apps with snapshots saved previously (see \\\"-b\\\")."
 
 #: APP-MANAGER:1903
+#, fuzzy
 msgid ""
 "Description: Search for keywords in the list of available applications, add "
 "the \\\"--appimages\\\" option to list only the AppImages, \\\"--portable\\"
@@ -912,8 +1064,14 @@ msgid ""
 "multiple programs at once. The \\\"--all\\\" flag allows you to consult the "
 "set of all supported databases."
 msgstr ""
+"Description: Search for keywords in the list of available applications, add "
+"the \\\"--appimages\\\" option to list only the AppImages, \\\"--portable\\"
+"\" option to list only the portable apps or add \\\"--pkg\\\" to list "
+"multiple programs at once. The \\\"--all\\\" flag allows you to consult the "
+"set of all supported databases."
 
 #: APP-MANAGER:1904
+#, fuzzy
 msgid ""
 "Description: Reinstall only programs whose installation script has been "
 "modified in AM's online database. Use the \\\"--all\\\" flag to reinstall "
@@ -923,20 +1081,31 @@ msgid ""
 "with the \\\"-e\\\" option and custom scripts created with the \\\"-t\\\" "
 "option are not supported."
 msgstr ""
+"Description: Reinstall only programs whose installation script has been "
+"modified in AM's online database. Use the \\\"--all\\\" flag to reinstall "
+"everything instead.\n"
+"\n"
+"\t\t\tNOTE, this only works with the \\\"AM\\\" database. Apps installed "
+"with the \\\"-e\\\" option and custom scripts created with the \\\"-t\\\" "
+"option are not supported."
 
 #: APP-MANAGER:1907
+#, fuzzy
 msgid "Description: Remove and reinstall local/AppMan apps to a new location."
-msgstr ""
+msgstr "Description: Remove and reinstall local/AppMan apps to a new location."
 
 #: APP-MANAGER:1908
+#, fuzzy
 msgid "Description: Removes one or more apps, requires confirmation."
-msgstr ""
+msgstr "Description: Removes one or more apps, requires confirmation."
 
 #: APP-MANAGER:1909
+#, fuzzy
 msgid "Description: Removes one or more apps without asking."
-msgstr ""
+msgstr "Description: Removes one or more apps without asking."
 
 #: APP-MANAGER:1910
+#, fuzzy
 msgid ""
 "Description: Run an AppImage in a sandbox.\n"
 "\n"
@@ -944,20 +1113,32 @@ msgid ""
 "ia\\\" or can be replaced using the option \\\"-ias\\\" (aka Install "
 "AppImage & Sandbox)."
 msgstr ""
+"Description: Run an AppImage in a sandbox.\n"
+"\n"
+"\t\t\tNOTE, \\\"--sandbox\\\" can be used as a flag in \\\"-i\\\" and \\\"-"
+"ia\\\" or can be replaced using the option \\\"-ias\\\" (aka Install "
+"AppImage & Sandbox)."
 
 #: APP-MANAGER:1913
+#, fuzzy
 msgid "Description: Updates this script to the latest version hosted."
-msgstr ""
+msgstr "Description: Updates this script to the latest version hosted."
 
 #: APP-MANAGER:1914
+#, fuzzy
 msgid ""
 "Description: Generate a custom installation script. To test the scripts, use "
 "the \\\"$AMCLI -i '/path/to/script'\\\" command or enter the directory of "
 "the script and run the \\\"$AMCLI -i ./script\\\" command, even using "
 "dedicated flags, if necessary (see \\\"-i\\\")."
 msgstr ""
+"Description: Generate a custom installation script. To test the scripts, use "
+"the \\\"$AMCLI -i '/path/to/script'\\\" command or enter the directory of "
+"the script and run the \\\"$AMCLI -i ./script\\\" command, even using "
+"dedicated flags, if necessary (see \\\"-i\\\")."
 
 #: APP-MANAGER:1915
+#, fuzzy
 msgid ""
 "Description: Download and set one or more language packs (if available), set "
 "\\\"$AMCLI\\\" to English (default), your language or other languages."
@@ -965,19 +1146,30 @@ msgid ""
 "source files needed to submit new translations or to improve the existing "
 "ones."
 msgstr ""
+"Description: Download and set one or more language packs (if available), set "
+"\\\"$AMCLI\\\" to English (default), your language or other languages.\\n\\n"
+"Visit https://github.com/ivan-hc/AM/tree/$AMBRANCH/translations to get "
+"source files needed to submit new translations or to improve the existing "
+"ones."
 
 #: APP-MANAGER:1916
+#, fuzzy
 msgid ""
 "Description: Allow a hidden app to be shown and managed again (nulls \\"
 "\"hide\\\")."
 msgstr ""
+"Description: Allow a hidden app to be shown and managed again (nulls \\"
+"\"hide\\\")."
 
 #: APP-MANAGER:1917
+#, fuzzy
 msgid ""
 "Description: Unlock updates for the selected program (nulls \\\"lock\\\")."
 msgstr ""
+"Description: Unlock updates for the selected program (nulls \\\"lock\\\")."
 
 #: APP-MANAGER:1918
+#, fuzzy
 msgid ""
 "Description: Update everything. Add \\\"--apps\\\" to update only the apps "
 "or write only the apps you want to update by adding their names. Add the \\"
@@ -985,39 +1177,55 @@ msgid ""
 "launcher\\\" flag to try to update only local AppImages integrated with the "
 "\\\"--launcher\\\" option (see \\\"--launcher\\\")."
 msgstr ""
+"Description: Update everything. Add \\\"--apps\\\" to update only the apps "
+"or write only the apps you want to update by adding their names. Add the \\"
+"\"--debug\\\" flag to view the output of AM-updater scripts. Add the \\\"--"
+"launcher\\\" flag to try to update only local AppImages integrated with the "
+"\\\"--launcher\\\" option (see \\\"--launcher\\\")."
 
 #: APP-MANAGER:1919
+#, fuzzy
 msgid "Description: Shows the version."
-msgstr ""
+msgstr "Description: Shows the version."
 
 #: APP-MANAGER:1920
+#, fuzzy
 msgid "Description: Undo \\\"--devmode-enable\\\" (see below)."
-msgstr ""
+msgstr "Description: Undo \\\"--devmode-enable\\\" (see below)."
 
 #: APP-MANAGER:1921
+#, fuzzy
 msgid "Description: Use the development branch (at your own risk)."
-msgstr ""
+msgstr "Description: Use the development branch (at your own risk)."
 
 #: APP-MANAGER:1922
+#, fuzzy
 msgid "Description: Disable notifications during apps update."
-msgstr ""
+msgstr "Description: Disable notifications during apps update."
 
 #: APP-MANAGER:1923
+#, fuzzy
 msgid "Description: Disable the sandbox for the selected app."
-msgstr ""
+msgstr "Description: Disable the sandbox for the selected app."
 
 #: APP-MANAGER:1924
+#, fuzzy
 msgid ""
 "Description: Enable notifications during apps update (nulls \\\"--disable-"
 "notifications\\\")."
 msgstr ""
+"Description: Enable notifications during apps update (nulls \\\"--disable-"
+"notifications\\\")."
 
 #: APP-MANAGER:1925
+#, fuzzy
 msgid ""
 "Description: Downgrades an installed app from pre-release to \\\"latest\\\"."
 msgstr ""
+"Description: Downgrades an installed app from pre-release to \\\"latest\\\"."
 
 #: APP-MANAGER:1926
+#, fuzzy
 msgid ""
 "Description: Drag/drop one or more AppImages in the terminal and embed them "
 "in the apps menu and customize a command to use from the CLI.\n"
@@ -1028,14 +1236,26 @@ msgid ""
 "This flag does not work miracles, I strongly suggest to use options \\\"-ia\\"
 "\" and \\\"-e\\\" instead."
 msgstr ""
+"Description: Drag/drop one or more AppImages in the terminal and embed them "
+"in the apps menu and customize a command to use from the CLI.\n"
+"\n"
+"\t\t\tNOTE that \\\"--launcher\\\" can be used as a flag in \\\"-u\\\" to "
+"try to update the integrated AppImages (see \\\"-u\\\"). This works only if "
+"\\\"appimageupdatetool\\\" is installed and delta updates are supported. "
+"This flag does not work miracles, I strongly suggest to use options \\\"-ia\\"
+"\" and \\\"-e\\\" instead."
 
 #: APP-MANAGER:1929
+#, fuzzy
 msgid ""
 "Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
 "\" (see \\\"--user\\\")."
 msgstr ""
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 
 #: APP-MANAGER:1930
+#, fuzzy
 msgid ""
 "Description: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for "
 "unprivileged users. This option only works with \\\"AM\\\".\n"
@@ -1046,27 +1266,44 @@ msgid ""
 "\t\t\t- Use it to install applications locally, option \\\"-i\\\" or \\"
 "\"install\\\":"
 msgstr ""
+"Description: Made \\\"AM\\\" run in \\\"AppMan Mode\\\", locally, useful for "
+"unprivileged users. This option only works with \\\"AM\\\".\n"
+"\n"
+"\t\t\tThe \\\"--user\\\" option can also be used just as a flag for "
+"installation options. For example:\n"
+"\n"
+"\t\t\t- Use it to install applications locally, option \\\"-i\\\" or \\"
+"\"install\\\":"
 
 #: APP-MANAGER:1935
+#, fuzzy
 msgid "- Also suboptions of \\\"-i\\\" can work with this flag:"
-msgstr ""
+msgstr "- Also suboptions of \\\"-i\\\" can work with this flag:"
 
 #: APP-MANAGER:1936
+#, fuzzy
 msgid ""
 "- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":"
 msgstr ""
+"- Same for AppImages only, option \\\"-ia\\\" or \\\"install-appimage\\\":"
 
 #: APP-MANAGER:1937
+#, fuzzy
 msgid ""
 "- External AppImages can be installed like this as well, option \\\"-e\\\" "
 "or \\\"extra\\\":"
 msgstr ""
+"- External AppImages can be installed like this as well, option \\\"-e\\\" "
+"or \\\"extra\\\":"
 
 #: APP-MANAGER:1938
+#, fuzzy
 msgid ""
 "NOTE, \\\"AM\\\" 9 or higher is also able to update and manage apps locally, "
 "by default, and without having to switch to \\\"AppMan Mode\\\"."
 msgstr ""
+"NOTE, \\\"AM\\\" 9 or higher is also able to update and manage apps locally, "
+"by default, and without having to switch to \\\"AppMan Mode\\\"."
 
 #: APP-MANAGER:2305
 msgid ""
@@ -1102,20 +1339,24 @@ msgid " Installed version: $app_version"
 msgstr " Versión instalada: $app_version"
 
 #: modules/database.am:208
+#, fuzzy
 msgid "YOU HAVE INSTALLED $APPSNUMB PROGRAM"
-msgstr ""
+msgstr "YOU HAVE INSTALLED $APPSNUMB PROGRAM"
 
 #: modules/database.am:210
+#, fuzzy
 msgid "YOU HAVE INSTALLED $APPSNUMB PROGRAMS"
-msgstr ""
+msgstr "YOU HAVE INSTALLED $APPSNUMB PROGRAMS"
 
 #: modules/database.am:215
+#, fuzzy
 msgid "AND $LIBNUMB LIBRARY"
-msgstr ""
+msgstr "AND $LIBNUMB LIBRARY"
 
 #: modules/database.am:217
+#, fuzzy
 msgid "AND $LIBNUMB LIBRARIES"
-msgstr ""
+msgstr "AND $LIBNUMB LIBRARIES"
 
 #: modules/database.am:219
 msgid " $APPSMESSAGE $LIBSMESSAGE LOCALLY, AS \\\"APPMAN\\\""
@@ -1170,12 +1411,14 @@ msgid " ◆ $arg\t|\tother"
 msgstr " ◆ $arg\t|\totro"
 
 #: modules/database.am:521
+#, fuzzy
 msgid "- APPNAME | DB | VERSION | TYPE | SIZE "
-msgstr ""
+msgstr "- APPNAME | DB | VERSION | TYPE | SIZE "
 
 #: modules/database.am:524
+#, fuzzy
 msgid "- APPNAME | VERSION | TYPE | SIZE "
-msgstr ""
+msgstr "- APPNAME | VERSION | TYPE | SIZE "
 
 #: modules/database.am:540
 msgid ""
@@ -1185,27 +1428,40 @@ msgstr ""
 "que la actualice\\n"
 
 #: modules/database.am:567
+#, fuzzy
 msgid ""
 "**the following app may have security vulnerabilities or is outdated: \\n\\n"
 msgstr ""
+"**the following app may have security vulnerabilities or is outdated: \\n\\n"
 
 #: modules/database.am:569
+#, fuzzy
 msgid ""
 "**the following apps may have security vulnerabilities or are outdated: "
 "\\n\\n"
 msgstr ""
+"**the following apps may have security vulnerabilities or are outdated: \\n\\"
+"n"
 
 #: modules/database.am:573
+#, fuzzy
 msgid ""
 "\\nPlease report more up-to-date sources, otherwise remove this app and look "
 "for alternatives.\\n\\n"
 msgstr ""
+"\\n"
+"Please report more up-to-date sources, otherwise remove this app and look "
+"for alternatives.\\n\\n"
 
 #: modules/database.am:575
+#, fuzzy
 msgid ""
 "\\nPlease report more up-to-date sources, otherwise remove these apps and "
 "look for alternatives.\\n\\n"
 msgstr ""
+"\\n"
+"Please report more up-to-date sources, otherwise remove these apps and look "
+"for alternatives.\\n\\n"
 
 #: modules/database.am:624
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
@@ -1222,22 +1478,31 @@ msgstr ""
 "desconocido\\n\\n"
 
 #: modules/database.am:776
+#, fuzzy
 msgid ""
 " YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
 "AVAILABLE, AND $LIBNUMBER LIBRARY"
 msgstr ""
+" YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
+"AVAILABLE, AND $LIBNUMBER LIBRARY"
 
 #: modules/database.am:778
+#, fuzzy
 msgid ""
 " YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
 "AVAILABLE, AND $LIBNUMBER LIBRARIES"
 msgstr ""
+" YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
+"AVAILABLE, AND $LIBNUMBER LIBRARIES"
 
 #: modules/database.am:781
+#, fuzzy
 msgid ""
 " YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
 "AVAILABLE"
 msgstr ""
+" YOU HAVE INSTALLED $APPSNUMBER PROGRAMS OUT OF $AVAILABLE_TOTAL_APPS_NUMBER "
+"AVAILABLE"
 
 #: modules/database.am:788
 msgid ""
@@ -1265,28 +1530,37 @@ msgstr ""
 "\"\\n"
 
 #: modules/database.am:856
+#, fuzzy
 msgid "$AVAILABLE_APPS_NUMBER programs available in the \\\"AM\\\" database"
-msgstr ""
+msgstr "$AVAILABLE_APPS_NUMBER programs available in the \\\"AM\\\" database"
 
 #: modules/database.am:864
+#, fuzzy
 msgid ""
 "$AVAILABLE_TOTAL_APPS_NUMBER programs available in all supported databases"
 msgstr ""
+"$AVAILABLE_TOTAL_APPS_NUMBER programs available in all supported databases"
 
 #: modules/database.am:872
+#, fuzzy
 msgid ""
 "$AVAILABLE_APPIMAGES_NUMBER AppImages available in the \\\"AM\\\" database"
 msgstr ""
+"$AVAILABLE_APPIMAGES_NUMBER AppImages available in the \\\"AM\\\" database"
 
 #: modules/database.am:880
+#, fuzzy
 msgid ""
 "$AVAILABLE_PORTABLE_NUMBER portable programs available in the \\\"AM\\\" "
 "database"
 msgstr ""
+"$AVAILABLE_PORTABLE_NUMBER portable programs available in the \\\"AM\\\" "
+"database"
 
 #: modules/database.am:891
+#, fuzzy
 msgid "$TPNUMBER_HERE programs available in the ${tplist_name^} database"
-msgstr ""
+msgstr "$TPNUMBER_HERE programs available in the ${tplist_name^} database"
 
 #: modules/database.am:896
 msgid ""
@@ -1317,48 +1591,66 @@ msgid " 💀 ERROR: \\\"$arg\\\" is NOT a valid argument"
 msgstr " 💀 ERROR: \\\"$arg\\\" NO es un argumento válido"
 
 #: modules/install.am:58
+#, fuzzy
 msgid "NOTE:\\n\\n"
-msgstr ""
+msgstr "NOTE:\\n\\n"
 
 #: modules/install.am:59
+#, fuzzy
 msgid ""
 "- to try to install AppImages (from github.com) not listed, use \\\"-e\\\"\\n"
 msgstr ""
+"- to try to install AppImages (from github.com) not listed, use \\\"-e\\\"\\n"
 
 #: modules/install.am:60
+#, fuzzy
 msgid ""
 "- to integrate random local AppImages to the app's menu, use \\\"--launcher\\"
 "\"\\n"
 msgstr ""
+"- to integrate random local AppImages to the app's menu, use \\\"--launcher\\"
+"\"\\n"
 
 #: modules/install.am:61
+#, fuzzy
 msgid ""
 "- to create your own installation script, use \\\"-t\\\" or \\\"template\\"
 "\"\\n"
 msgstr ""
+"- to create your own installation script, use \\\"-t\\\" or \\\"template\\"
+"\"\\n"
 
 #: modules/install.am:62
+#, fuzzy
 msgid "\\nFor more info, run \\\"$AMCLI -h\\\".\\n"
 msgstr ""
+"\\n"
+"For more info, run \\\"$AMCLI -h\\\".\\n"
 
 #: modules/install.am:72
+#, fuzzy
 msgid ""
 "💀 ERROR: this option is ment to handle installation scripts only! \\n\\n"
 msgstr ""
+"💀 ERROR: this option is ment to handle installation scripts only! \\n\\n"
 
 #: modules/install.am:73
+#, fuzzy
 msgid ""
 " If this AppImage is not in our database, open an issue or a pull request "
 "at\\n https://github.com/ivan-hc/AM\\n\\n"
 msgstr ""
+" If this AppImage is not in our database, open an issue or a pull request "
+"at\\n https://github.com/ivan-hc/AM\\n\\n"
 
 #: modules/install.am:77
 msgid "💀 ERROR: \\\"$arg\\\" is not a valid file! \\n\\n"
 msgstr " 💀 ERROR: \\\"$arg\\\" NO es un argumento válido! \\n\\n"
 
 #: modules/install.am:78
+#, fuzzy
 msgid "This option is ment to handle installation scripts only! \\n\\n"
-msgstr ""
+msgstr "This option is ment to handle installation scripts only! \\n\\n"
 
 #: modules/install.am:86
 msgid " 💀 ERROR: cannot create \\\"$arg\\\", the builder does not exists"
@@ -1379,10 +1671,13 @@ msgid " ◆ $APPNAME IS PART OF \\\"$LASTDIR\\\", ALREADY INSTALLED"
 msgstr " ◆ $APPNAME ES PARTE DE \\\"$LASTDIR\\\", YA INSTALADO"
 
 #: modules/install.am:145
+#, fuzzy
 msgid ""
 " ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! "
 "\\033[0m\\n"
 msgstr ""
+" ${RED}WARNING: \\\"$arg\\\" does not have a transparent build process! \\0"
+"33[0m\\n"
 
 #: modules/install.am:146
 msgid ""
@@ -1663,8 +1958,9 @@ msgid " The option \\\"$1\\\" only works for https://github.com"
 msgstr " La opción \\\"$1\\\" solo funciona para https://github.com"
 
 #: modules/management.am:173
+#, fuzzy
 msgid " Do you want to exclude snapshot versions? (Y,n)"
-msgstr ""
+msgstr " Do you want to exclude snapshot versions? (Y,n)"
 
 #: modules/management.am:179
 msgid " ERROR: No valid links found, sorry!"

@@ -1,6 +1,6 @@
 # File with translation for AM
 # FIRST AUTHOR <zenobit@disroot.org>, 2025
-# Prefill add-on <noreply-addon-prefill@weblate.org>, 2025.
+# Prefill add-on <noreply-addon-prefill@weblate.org>, 2025, 2026.
 # Glossary sync <noreply-glossary-sync@weblate.org>, 2025.
 # LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
 msgid ""
@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: am 9.7\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2026-03-28\n"
-"PO-Revision-Date: 2026-02-14 18:51+0100\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
-"Language: cs\n"
+"PO-Revision-Date: 2026-03-29 09:48+0000\n"
+"Last-Translator: Prefill add-on <noreply-addon-prefill@weblate.org>\n"
+"Language-Team: German <https://weblate.osowoso.org/projects/am/am/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: APP-MANAGER:154
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -611,28 +611,34 @@ msgid "\\n See https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 msgstr "\\n Siehe https://github.com/ivan-hc/AM/commits/%b\\n\\n"
 
 #: APP-MANAGER:1423
+#, fuzzy
 msgid "Checksum auto-verified."
-msgstr ""
+msgstr "Checksum auto-verified."
 
 #: APP-MANAGER:1451
+#, fuzzy
 msgid "Checksum cannot be verified, missing download URL."
-msgstr ""
+msgstr "Checksum cannot be verified, missing download URL."
 
 #: APP-MANAGER:1467
+#, fuzzy
 msgid "Checksum cannot be verified, mismatch in binary name."
-msgstr ""
+msgstr "Checksum cannot be verified, mismatch in binary name."
 
 #: APP-MANAGER:1474
+#, fuzzy
 msgid "Checksum does not match, please manually verify file integrity."
-msgstr ""
+msgstr "Checksum does not match, please manually verify file integrity."
 
 #: APP-MANAGER:1478
+#, fuzzy
 msgid "Checksum verified."
-msgstr ""
+msgstr "Checksum verified."
 
 #: APP-MANAGER:1483
+#, fuzzy
 msgid "Checksum calculation tools do not exist, please install coreutils."
-msgstr ""
+msgstr "Checksum calculation tools do not exist, please install coreutils."
 
 #: APP-MANAGER:1493
 msgid ""
@@ -1358,27 +1364,40 @@ msgstr ""
 "Update bitten\\n"
 
 #: modules/database.am:567
+#, fuzzy
 msgid ""
 "**the following app may have security vulnerabilities or is outdated: \\n\\n"
 msgstr ""
+"**the following app may have security vulnerabilities or is outdated: \\n\\n"
 
 #: modules/database.am:569
+#, fuzzy
 msgid ""
 "**the following apps may have security vulnerabilities or are outdated: "
 "\\n\\n"
 msgstr ""
+"**the following apps may have security vulnerabilities or are outdated: \\n\\"
+"n"
 
 #: modules/database.am:573
+#, fuzzy
 msgid ""
 "\\nPlease report more up-to-date sources, otherwise remove this app and look "
 "for alternatives.\\n\\n"
 msgstr ""
+"\\n"
+"Please report more up-to-date sources, otherwise remove this app and look "
+"for alternatives.\\n\\n"
 
 #: modules/database.am:575
+#, fuzzy
 msgid ""
 "\\nPlease report more up-to-date sources, otherwise remove these apps and "
 "look for alternatives.\\n\\n"
 msgstr ""
+"\\n"
+"Please report more up-to-date sources, otherwise remove these apps and look "
+"for alternatives.\\n\\n"
 
 #: modules/database.am:624
 msgid " TOTAL SIZE: $TOTAL_SIZE of disk space in use"
@@ -1501,48 +1520,66 @@ msgid " 💀 ERROR: \\\"$arg\\\" is NOT a valid argument"
 msgstr " 💀 FEHLER: \\\"$arg\\\" ist KEIN gültiges Argument"
 
 #: modules/install.am:58
+#, fuzzy
 msgid "NOTE:\\n\\n"
-msgstr ""
+msgstr "NOTE:\\n\\n"
 
 #: modules/install.am:59
+#, fuzzy
 msgid ""
 "- to try to install AppImages (from github.com) not listed, use \\\"-e\\\"\\n"
 msgstr ""
+"- to try to install AppImages (from github.com) not listed, use \\\"-e\\\"\\n"
 
 #: modules/install.am:60
+#, fuzzy
 msgid ""
 "- to integrate random local AppImages to the app's menu, use \\\"--launcher\\"
 "\"\\n"
 msgstr ""
+"- to integrate random local AppImages to the app's menu, use \\\"--launcher\\"
+"\"\\n"
 
 #: modules/install.am:61
+#, fuzzy
 msgid ""
 "- to create your own installation script, use \\\"-t\\\" or \\\"template\\"
 "\"\\n"
 msgstr ""
+"- to create your own installation script, use \\\"-t\\\" or \\\"template\\"
+"\"\\n"
 
 #: modules/install.am:62
+#, fuzzy
 msgid "\\nFor more info, run \\\"$AMCLI -h\\\".\\n"
 msgstr ""
+"\\n"
+"For more info, run \\\"$AMCLI -h\\\".\\n"
 
 #: modules/install.am:72
+#, fuzzy
 msgid ""
 "💀 ERROR: this option is ment to handle installation scripts only! \\n\\n"
 msgstr ""
+"💀 ERROR: this option is ment to handle installation scripts only! \\n\\n"
 
 #: modules/install.am:73
+#, fuzzy
 msgid ""
 " If this AppImage is not in our database, open an issue or a pull request "
 "at\\n https://github.com/ivan-hc/AM\\n\\n"
 msgstr ""
+" If this AppImage is not in our database, open an issue or a pull request "
+"at\\n https://github.com/ivan-hc/AM\\n\\n"
 
 #: modules/install.am:77
 msgid "💀 ERROR: \\\"$arg\\\" is not a valid file! \\n\\n"
 msgstr " 💀 FEHLER: \\\"$arg\\\" ist KEIN gültiges Argument! \\n\\n"
 
 #: modules/install.am:78
+#, fuzzy
 msgid "This option is ment to handle installation scripts only! \\n\\n"
-msgstr ""
+msgstr "This option is ment to handle installation scripts only! \\n\\n"
 
 #: modules/install.am:86
 msgid " 💀 ERROR: cannot create \\\"$arg\\\", the builder does not exists"
@@ -1851,8 +1888,9 @@ msgid " The option \\\"$1\\\" only works for https://github.com"
 msgstr " Die Option \\\"$1\\\" funktioniert nur für https://github.com"
 
 #: modules/management.am:173
+#, fuzzy
 msgid " Do you want to exclude snapshot versions? (Y,n)"
-msgstr ""
+msgstr " Do you want to exclude snapshot versions? (Y,n)"
 
 #: modules/management.am:179
 msgid " ERROR: No valid links found, sorry!"
